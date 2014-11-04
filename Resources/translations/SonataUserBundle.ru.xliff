@@ -2,25 +2,17 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" datatype="plaintext" original="" >
         <body>
-            <trans-unit id="title_user_registration">
-                <source>title_user_registration</source>
-                <target>Регистрация</target>
-            </trans-unit>
             <trans-unit id="title_user_account">
                 <source>title_user_account</source>
-                <target>Профиль пользователя</target>
+                <target>User Profile</target>
             </trans-unit>
             <trans-unit id="title_user_edit_profile">
                 <source>title_user_edit_profile</source>
-                <target>Редактирование</target>
-            </trans-unit>
-            <trans-unit id="title_user_authentication">
-                <source>title_user_authentication</source>
-                <target>Вход</target>
+                <target>Edit</target>
             </trans-unit>
             <trans-unit id="sonata_user_submit">
                 <source>sonata_user_submit</source>
-                <target>Отправить</target>
+                <target>Submit</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_user_list">
                 <source>breadcrumb.link_user_list</source>
@@ -60,11 +52,11 @@
             </trans-unit>
             <trans-unit id="switch_user_exit">
                 <source>switch_user_exit</source>
-                <target>Выйти из режима воплощения</target>
+                <target>Exit impersonating mode</target>
             </trans-unit>
             <trans-unit id="switch_user">
                 <source>switch_user</source>
-                <target>Воплотиться в пользователя</target>
+                <target>Impersonate User</target>
             </trans-unit>
             <trans-unit id="user_block_logout">
                 <source>user_block_logout</source>
@@ -176,7 +168,7 @@
             </trans-unit>
             <trans-unit id="list.label_impersonating">
                 <source>list.label_impersonating</source>
-                <target>Воплотиться в пользователя</target>
+                <target>Impersonate User</target>
             </trans-unit>
             <trans-unit id="list.label_roles">
                 <source>list.label_roles</source>
@@ -192,15 +184,15 @@
             </trans-unit>
             <trans-unit id="label_two_step_code">
                 <source>label_two_step_code</source>
-                <target>Код двухэтапной аутентификации</target>
+                <target>label_two_step_code</target>
             </trans-unit>
             <trans-unit id="message_two_step_code_help">
                 <source>message_two_step_code_help</source>
-                <target>Введите проверочний код, сгенерированный вашим мобильным приложением</target>
+                <target>message_two_step_code_help</target>
             </trans-unit>
             <trans-unit id="label_two_step_code_error">
                 <source>label_two_step_code_error</source>
-                <target>Неправильный код</target>
+                <target>label_two_step_code_error</target>
             </trans-unit>
             <trans-unit id="sonata_user">
                 <source>sonata_user</source>
@@ -284,7 +276,7 @@
             </trans-unit>
             <trans-unit id="form.label_two_step_verification_code">
                 <source>form.label_two_step_verification_code</source>
-                <target>Код двухэтапной аутентификации</target>
+                <target>Ключ двухэтапной аутентификации</target>
             </trans-unit>
             <trans-unit id="show.label_username">
                 <source>show.label_username</source>
@@ -364,7 +356,7 @@
             </trans-unit>
             <trans-unit id="show.label_two_step_verification_code">
                 <source>show.label_two_step_verification_code</source>
-                <target>Код двухэтапной аутентификации</target>
+                <target>Ключ двухэтапной аутентификации</target>
             </trans-unit>
             <trans-unit id="form.label_date_of_birth">
                 <source>form.label_date_of_birth</source>
@@ -376,135 +368,15 @@
             </trans-unit>
             <trans-unit id="gender_unknown">
                 <source>gender_unknown</source>
-                <target>не указан</target>
+                <target>gender_unknown</target>
             </trans-unit>
             <trans-unit id="gender_female">
                 <source>gender_female</source>
-                <target>женский</target>
+                <target>gender_female</target>
             </trans-unit>
             <trans-unit id="gender_male">
                 <source>gender_male</source>
-                <target>мужской</target>
-            </trans-unit>
-            <trans-unit id="sonata_profile_title">
-                <source>sonata_profile_title</source>
-                <target>Профиль</target>
-            </trans-unit>
-            <trans-unit id="link_show_profile">
-                <source>link_show_profile</source>
-                <target>Показать профиль</target>
-            </trans-unit>
-            <trans-unit id="link_edit_profile">
-                <source>link_edit_profile</source>
-                <target>Редактировать профиль</target>
-            </trans-unit>
-            <trans-unit id="title_user_edit_authentication">
-                <source>title_user_edit_authentication</source>
-                <target>Аутентификация</target>
-            </trans-unit>
-            <trans-unit id="link_edit_authentication">
-                <source>link_edit_authentication</source>
-                <target>Аутентификация</target>
-            </trans-unit>
-            <trans-unit id="label_profile_gender">
-                <source>label_profile_gender</source>
-                <target>Пол</target>
-            </trans-unit>
-            <trans-unit id="label_profile_firstname">
-                <source>label_profile_firstname</source>
-                <target>Имя</target>
-            </trans-unit>
-            <trans-unit id="label_profile_lastname">
-                <source>label_profile_lastname</source>
-                <target>Фамилия</target>
-            </trans-unit>
-            <trans-unit id="label_profile_website">
-                <source>label_profile_website</source>
-                <target>Веб-сайт</target>
-            </trans-unit>
-            <trans-unit id="label_profile_dob">
-                <source>label_profile_dob</source>
-                <target>Дата рождения</target>
-            </trans-unit>
-            <trans-unit id="label_profile_biography">
-                <source>label_profile_biography</source>
-                <target>Биография</target>
-            </trans-unit>
-            <trans-unit id="label_profile_locale">
-                <source>label_profile_locale</source>
-                <target>Локаль</target>
-            </trans-unit>
-            <trans-unit id="label_profile_timezone">
-                <source>label_profile_timezone</source>
-                <target>Часовой пояс</target>
-            </trans-unit>
-            <trans-unit id="label_profile_phone">
-                <source>label_profile_phone</source>
-                <target>Телефон</target>
-            </trans-unit>
-            <trans-unit id="profile.flash.updated">
-                <source>profile.flash.updated</source>
-                <target>Профиль успешно обновлен</target>
-            </trans-unit>
-            <trans-unit id="sonata_change_password_link">
-                <source>sonata_change_password_link</source>
-                <target>Изменить пароль</target>
-            </trans-unit>
-            <trans-unit id="link_register">
-                <source>link_register</source>
-                <target>Регистрация</target>
-            </trans-unit>
-            <trans-unit id="link_login">
-                <source>link_login</source>
-                <target>Вход</target>
-            </trans-unit>
-            <trans-unit id="link_logout">
-                <source>link_logout</source>
-                <target>Выход</target>
-            </trans-unit>
-            <trans-unit id="registration.flash.user_created">
-                <source>registration.flash.user_created</source>
-                <target>Пользователь успешно создан</target>
-            </trans-unit>
-            <trans-unit id="forgotten_password">
-                <source>forgotten_password</source>
-                <target>Напомнить пароль</target>
-            </trans-unit>
-            <trans-unit id="sonata_user_profile_breadcrumb_index">
-                <source>sonata_user_profile_breadcrumb_index</source>
-                <target>sonata_user_profile_breadcrumb_index</target>
-            </trans-unit>
-            <trans-unit id="sonata_user_profile_breadcrumb_edit">
-                <source>sonata_user_profile_breadcrumb_edit</source>
-                <target>sonata_user_profile_breadcrumb_edit</target>
-            </trans-unit>
-            <trans-unit id="sonata_user_already_authenticated">
-                <source>sonata_user_already_authenticated</source>
-                <target>Вы уже вошли</target>
-            </trans-unit>
-            <trans-unit id="security.login.username">
-                <source>security.login.username</source>
-                <target>Имя пользователя</target>
-            </trans-unit>
-            <trans-unit id="security.login.password">
-                <source>security.login.password</source>
-                <target>Пароль</target>
-            </trans-unit>
-            <trans-unit id="form.username">
-                <source>form.username</source>
-                <target>Имя пользователя</target>
-            </trans-unit>
-            <trans-unit id="form.email">
-                <source>form.email</source>
-                <target>E-mail</target>
-            </trans-unit>
-            <trans-unit id="form.password">
-                <source>form.password</source>
-                <target>Пароль</target>
-            </trans-unit>
-            <trans-unit id="form.password_confirmation">
-                <source>form.password_confirmation</source>
-                <target>Подтверждение пароля</target>
+                <target>gender_male</target>
             </trans-unit>
         </body>
     </file>

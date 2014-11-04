@@ -2,10 +2,6 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" datatype="plaintext" original="" target-language="nl">
         <body>
-            <trans-unit id="title_user_registration">
-                <source>title_user_registration</source>
-                <target>Gebruiker registratie</target>
-            </trans-unit>
             <trans-unit id="sonata_user">
                 <source>sonata_user</source>
                 <target>Gebruikersbeheer</target>
@@ -17,10 +13,6 @@
             <trans-unit id="title_user_edit_profile">
                 <source>title_user_edit_profile</source>
                 <target>Gebruiker wijzigen</target>
-            </trans-unit>
-            <trans-unit id="title_user_authentication">
-                <source>title_user_authentication</source>
-                <target>Authentication</target>
             </trans-unit>
             <trans-unit id="sonata_user_submit">
                 <source>sonata_user_submit</source>
@@ -424,135 +416,15 @@
             </trans-unit>
             <trans-unit id="gender_unknown">
                 <source>gender_unknown</source>
-                <target>Onbekend</target>
+                <target>gender_unknown</target>
             </trans-unit>
             <trans-unit id="gender_female">
                 <source>gender_female</source>
-                <target>Vrouw</target>
+                <target>gender_female</target>
             </trans-unit>
             <trans-unit id="gender_male">
                 <source>gender_male</source>
-                <target>Man</target>
-            </trans-unit>
-            <trans-unit id="sonata_profile_title">
-                <source>sonata_profile_title</source>
-                <target>Profiel</target>
-            </trans-unit>
-            <trans-unit id="link_show_profile">
-                <source>link_show_profile</source>
-                <target>Profiel bekijken</target>
-            </trans-unit>
-            <trans-unit id="link_edit_profile">
-                <source>link_edit_profile</source>
-                <target>Profiel aanpassen</target>
-            </trans-unit>
-            <trans-unit id="title_user_edit_authentication">
-                <source>title_user_edit_authentication</source>
-                <target>Authenticatie aanpassen</target>
-            </trans-unit>
-            <trans-unit id="link_edit_authentication">
-                <source>link_edit_authentication</source>
-                <target>Authenticatie aanpassen</target>
-            </trans-unit>
-            <trans-unit id="label_profile_gender">
-                <source>label_profile_gender</source>
-                <target>Geslacht</target>
-            </trans-unit>
-            <trans-unit id="label_profile_firstname">
-                <source>label_profile_firstname</source>
-                <target>Voornaam</target>
-            </trans-unit>
-            <trans-unit id="label_profile_lastname">
-                <source>label_profile_lastname</source>
-                <target>Achternaam</target>
-            </trans-unit>
-            <trans-unit id="label_profile_website">
-                <source>label_profile_website</source>
-                <target>Website</target>
-            </trans-unit>
-            <trans-unit id="label_profile_dob">
-                <source>label_profile_dob</source>
-                <target>Geboortedatum</target>
-            </trans-unit>
-            <trans-unit id="label_profile_biography">
-                <source>label_profile_biography</source>
-                <target>Biografie</target>
-            </trans-unit>
-            <trans-unit id="label_profile_locale">
-                <source>label_profile_locale</source>
-                <target>Landinstelling</target>
-            </trans-unit>
-            <trans-unit id="label_profile_timezone">
-                <source>label_profile_timezone</source>
-                <target>Tijdzone</target>
-            </trans-unit>
-            <trans-unit id="label_profile_phone">
-                <source>label_profile_phone</source>
-                <target>Telefoonnummer</target>
-            </trans-unit>
-            <trans-unit id="profile.flash.updated">
-                <source>profile.flash.updated</source>
-                <target>Profiel aangepast</target>
-            </trans-unit>
-            <trans-unit id="sonata_change_password_link">
-                <source>sonata_change_password_link</source>
-                <target>Wachtwoord wijzigen</target>
-            </trans-unit>
-            <trans-unit id="link_register">
-                <source>link_register</source>
-                <target>Registreren</target>
-            </trans-unit>
-            <trans-unit id="link_login">
-                <source>link_login</source>
-                <target>Inloggen</target>
-            </trans-unit>
-            <trans-unit id="link_logout">
-                <source>link_logout</source>
-                <target>Uitloggen</target>
-            </trans-unit>
-            <trans-unit id="registration.flash.user_created">
-                <source>registration.flash.user_created</source>
-                <target>Gebruiker aangemaakt</target>
-            </trans-unit>
-            <trans-unit id="forgotten_password">
-                <source>forgotten_password</source>
-                <target>Wachtwoord vergeten</target>
-            </trans-unit>
-            <trans-unit id="sonata_user_profile_breadcrumb_index">
-                <source>sonata_user_profile_breadcrumb_index</source>
-                <target>Gebruikers</target>
-            </trans-unit>
-            <trans-unit id="sonata_user_profile_breadcrumb_edit">
-                <source>sonata_user_profile_breadcrumb_edit</source>
-                <target>Gebruiker aanpassen</target>
-            </trans-unit>
-            <trans-unit id="sonata_user_already_authenticated">
-                <source>sonata_user_already_authenticated</source>
-                <target>Je bent al ingelogd</target>
-            </trans-unit>
-            <trans-unit id="security.login.username">
-                <source>security.login.username</source>
-                <target>Gebruikersnaam</target>
-            </trans-unit>
-            <trans-unit id="security.login.password">
-                <source>security.login.password</source>
-                <target>Wachtwoord</target>
-            </trans-unit>
-            <trans-unit id="form.username">
-                <source>form.username</source>
-                <target>Gebruikersnaam</target>
-            </trans-unit>
-            <trans-unit id="form.email">
-                <source>form.email</source>
-                <target>E-mail</target>
-            </trans-unit>
-            <trans-unit id="form.password">
-                <source>form.password</source>
-                <target>Wachtwoord</target>
-            </trans-unit>
-            <trans-unit id="form.password_confirmation">
-                <source>form.password_confirmation</source>
-                <target>Wachtwoord bevestigen</target>
+                <target>gender_male</target>
             </trans-unit>
         </body>
     </file>

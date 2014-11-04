@@ -2,25 +2,17 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" datatype="plaintext" original="" >
         <body>
-            <trans-unit id="title_user_registration">
-                <source>title_user_registration</source>
-                <target>title_user_registration</target>
-            </trans-unit>
             <trans-unit id="title_user_account">
                 <source>title_user_account</source>
-                <target>Perfil d'usuari</target>
+                <target>User Profile</target>
             </trans-unit>
             <trans-unit id="title_user_edit_profile">
                 <source>title_user_edit_profile</source>
-                <target>Editar</target>
-            </trans-unit>
-            <trans-unit id="title_user_authentication">
-                <source>title_user_authentication</source>
-                <target>Autenticació</target>
+                <target>Edit</target>
             </trans-unit>
             <trans-unit id="sonata_user_submit">
                 <source>sonata_user_submit</source>
-                <target>Enviar</target>
+                <target>Submit</target>
             </trans-unit>
             <trans-unit id="breadcrumb.link_user_list">
                 <source>breadcrumb.link_user_list</source>
@@ -120,7 +112,7 @@
             </trans-unit>
             <trans-unit id="filter.label_email">
                 <source>filter.label_email</source>
-                <target>Correu electrònic</target>
+                <target>Direcció de correu electrònic</target>
             </trans-unit>
             <trans-unit id="filter.label_locked">
                 <source>filter.label_locked</source>
@@ -152,7 +144,7 @@
             </trans-unit>
             <trans-unit id="list.label_email">
                 <source>list.label_email</source>
-                <target>Correu electrònic</target>
+                <target>Direcció de correu electrònic</target>
             </trans-unit>
             <trans-unit id="list.label_groups">
                 <source>list.label_groups</source>
@@ -288,7 +280,7 @@
             </trans-unit>
             <trans-unit id="show.label_username">
                 <source>show.label_username</source>
-                <target>Nom d'usuari</target>
+                <target>Nom d'usuario</target>
             </trans-unit>
             <trans-unit id="show.label_email">
                 <source>show.label_email</source>
@@ -368,141 +360,16 @@
             </trans-unit>
             <trans-unit id="gender_unknown">
                 <source>gender_unknown</source>
-                <target>Indefinit</target>
+                <target>gender_unknown</target>
             </trans-unit>
             <trans-unit id="gender_female">
                 <source>gender_female</source>
-                <target>Femení</target>
+                <target>gender_female</target>
             </trans-unit>
             <trans-unit id="gender_male">
                 <source>gender_male</source>
-                <target>Masculí</target>
-            </trans-unit>
-            <trans-unit id="sonata_profile_title">
-                <source>sonata_profile_title</source>
-                <target>sonata_profile_title</target>
-            </trans-unit>
-            <trans-unit id="link_show_profile">
-                <source>link_show_profile</source>
-                <target>link_show_profile</target>
-            </trans-unit>
-            <trans-unit id="link_edit_profile">
-                <source>link_edit_profile</source>
-                <target>link_edit_profile</target>
-            </trans-unit>
-            <trans-unit id="title_user_edit_authentication">
-                <source>title_user_edit_authentication</source>
-                <target>title_user_edit_authentication</target>
-            </trans-unit>
-            <trans-unit id="link_edit_authentication">
-                <source>link_edit_authentication</source>
-                <target>link_edit_authentication</target>
-            </trans-unit>
-            <trans-unit id="label_profile_gender">
-                <source>label_profile_gender</source>
-                <target>label_profile_gender</target>
-            </trans-unit>
-            <trans-unit id="label_profile_firstname">
-                <source>label_profile_firstname</source>
-                <target>label_profile_firstname</target>
-            </trans-unit>
-            <trans-unit id="label_profile_lastname">
-                <source>label_profile_lastname</source>
-                <target>label_profile_lastname</target>
-            </trans-unit>
-            <trans-unit id="label_profile_website">
-                <source>label_profile_website</source>
-                <target>label_profile_website</target>
-            </trans-unit>
-            <trans-unit id="label_profile_dob">
-                <source>label_profile_dob</source>
-                <target>label_profile_dob</target>
-            </trans-unit>
-            <trans-unit id="label_profile_biography">
-                <source>label_profile_biography</source>
-                <target>label_profile_biography</target>
-            </trans-unit>
-            <trans-unit id="label_profile_locale">
-                <source>label_profile_locale</source>
-                <target>label_profile_locale</target>
-            </trans-unit>
-            <trans-unit id="label_profile_timezone">
-                <source>label_profile_timezone</source>
-                <target>label_profile_timezone</target>
-            </trans-unit>
-            <trans-unit id="label_profile_phone">
-                <source>label_profile_phone</source>
-                <target>label_profile_phone</target>
-            </trans-unit>
-            <trans-unit id="profile.flash.updated">
-                <source>profile.flash.updated</source>
-                <target>profile.flash.updated</target>
-            </trans-unit>
-            <trans-unit id="sonata_change_password_link">
-                <source>sonata_change_password_link</source>
-                <target>sonata_change_password_link</target>
-            </trans-unit>
-            <trans-unit id="link_register">
-                <source>link_register</source>
-                <target>Registrar</target>
-            </trans-unit>
-            <trans-unit id="link_login">
-                <source>link_login</source>
-                <target>Accedir</target>
-            </trans-unit>
-            <trans-unit id="link_logout">
-                <source>link_logout</source>
-                <target>Sortir</target>
-            </trans-unit>
-            <trans-unit id="link_actions">
-                <source>link_actions</source>
-                <target>Accions</target>
-            </trans-unit>
-            <trans-unit id="registration.flash.user_created">
-                <source>registration.flash.user_created</source>
-                <target>registration.flash.user_created</target>
-            </trans-unit>
-            <trans-unit id="forgotten_password">
-                <source>forgotten_password</source>
-                <target>He oblidat la contrasenya</target>
-            </trans-unit>
-            <trans-unit id="sonata_user_profile_breadcrumb_index">
-                <source>sonata_user_profile_breadcrumb_index</source>
-                <target>sonata_user_profile_breadcrumb_index</target>
-            </trans-unit>
-            <trans-unit id="sonata_user_profile_breadcrumb_edit">
-                <source>sonata_user_profile_breadcrumb_edit</source>
-                <target>sonata_user_profile_breadcrumb_edit</target>
-            </trans-unit>
-            <trans-unit id="sonata_user_already_authenticated">
-                <source>sonata_user_already_authenticated</source>
-                <target>Ja has iniciat la sessió</target>
-            </trans-unit>
-            <trans-unit id="security.login.username">
-                <source>security.login.username</source>
-                <target>Usuari</target>
-            </trans-unit>
-            <trans-unit id="security.login.password">
-                <source>security.login.password</source>
-                <target>Contrasenya</target>
-            </trans-unit>
-            <trans-unit id="form.username">
-                <source>form.username</source>
-                <target>Nom d'usuari</target>
-            </trans-unit>
-            <trans-unit id="form.email">
-                <source>form.email</source>
-                <target>Email</target>
-            </trans-unit>
-            <trans-unit id="form.password">
-                <source>form.password</source>
-                <target>Contrasenya</target>
-            </trans-unit>
-            <trans-unit id="form.password_confirmation">
-                <source>form.password_confirmation</source>
-                <target>form.password_confifmation</target>
+                <target>gender_male</target>
             </trans-unit>
         </body>
     </file>
 </xliff>
-

@@ -9,43 +9,12 @@ file that was distributed with this source code.
 
 #}
 
-{% extends "SonataUserBundle:Profile:action.html.twig" %}
+<div class="sonata-user-show">
 
-{% block sonata_profile_content %}
-    {% sonata_template_box 'This is the user profile template. Feel free to override it.' %}
+    <b>{{ app.user.fullname }}</b>
 
-    <div class="row row-fluid">
-        {% set has_center = false %}
-        {% for block in blocks %}
-            {% if block.position == 'center' %}
-                {% set has_center = true %}
-            {% endif %}
-        {% endfor %}
-
-        <div class="{% if has_center %}span4 col-lg-4{% else %}span6 col-lg-6{% endif %}">
-            {% for block in blocks %}
-                {% if block.position == 'left' %}
-                    {{ sonata_block_render({ 'type': block.type, 'settings': block.settings}) }}
-                {% endif %}
-            {% endfor %}
-        </div>
-
-        {% if has_center %}
-            <div class="span4 col-lg-4">
-                {% for block in blocks %}
-                    {% if block.position == 'center' %}
-                        {{ sonata_block_render({ 'type': block.type, 'settings': block.settings}) }}
-                    {% endif %}
-                {% endfor %}
-            </div>
-        {% endif %}
-
-        <div class="{% if has_center %}span4 col-lg-4{% else %}span6 col-lg-6{% endif %}">
-            {% for block in blocks %}
-                {% if block.position == 'right' %}
-                    {{ sonata_block_render({ 'type': block.type, 'settings': block.settings}) }}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-{% endblock %}
+    <ul>
+        <li><a href="{{ path('sonata_user_profile_edit') }}">{{ "link_edit_profile" | trans({}, 'SonataUserBundle')}}</a></li>
+        <li><a href="{{ path('sonata_user_profile_edit_authentication') }}">{{ "link_edit_authentication" | trans({}, 'SonataUserBundle')}}</a></li>
+    </ul>
+</div>
